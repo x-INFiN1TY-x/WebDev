@@ -1,0 +1,112 @@
+.toptable {
+    background-color: azure;
+    border: 0;
+    width: 100%;
+}
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: small;
+}
+
+img {
+    margin: 0;
+}
+
+.topimg {
+    border-radius: 30px;
+    border-color: rgb(8, 4, 44);
+    border-width: 1;
+    border-style: groove;
+}
+
+#rowblue {
+    background-color: #006699;
+    height: 30px;
+}
+
+#topsticktable {
+    position: sticky;
+    display: block;
+    margin: 0;
+    border: 0;
+
+}
+
+.sidemain {
+    width: 13%;
+    text-align: left;
+    border-style: groove;
+    margin: 0;
+    align-items: center;
+    border: 0;
+
+}
+
+.sidecol {
+    width: 0.1%;
+    border-style: dotted;
+    background-image: url(https://media.tenor.com/26KgBqLSQUgAAAAM/stars-star-gazing.gif);
+    margin: 0;
+    border: 0;
+}
+
+#midmain {
+    width: 71.8%;
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+
+    border: 0;
+}
+
+#leftmaintab {
+    border: 1px;
+    border-style: outset ridge;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border: 0;
+}
+
+.boxxy {
+    border: 1px;
+    border-style: outset ridge;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.bluee {
+    background-color: #006699;
+    color: rgb(250, 250, 250);
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 9px 15px 9px 15px;
+    text-decoration: none;
+    border-width: 0ch;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+#oof {}
