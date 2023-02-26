@@ -1,0 +1,164 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.headliner {
+    font-family: 'montserrat', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+#Brand1 {
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(0, 0, 0);
+    vertical-align: 8%;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+#Brand2 {
+    font-family: 'Monoton', cursive;
+    color: rgb(0, 0, 0);
+
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.container-fluid {
+    padding: 3% 8%;
+}
+
+.navbar {
+    margin-bottom: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+    font-weight: bolder;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    height: auto;
+
+}
+
+.iconsdeschead {
+    font-size: 1.5rem;
+    font-family: 'Ubuntu Mono',
+        monospace;
+    text-align: center;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: 600;
+}
+
+.iconsdesc {
+    text-align: center;
+    color: #8f8f8f;
+    padding: 0 5%;
+}
+
+.icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+#features {
+    padding: 5%;
+    background-color: #fff;
+
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bolder;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 5%;
+}
+
+.testimonial-text {
+    padding: 2% 7% 3% 7%;
+    text-align: center;
+
+}
+
+#testimage {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+
+    transition: width 50ms, border-radius 50ms, margin 50ms;
+}
+
+#testimage:hover {
+    border-radius: 90%;
+    width: 13%;
+    margin: 0;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 0 0 10px 0;
+
+}
+
+.scrolll {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+    transition: width 50ms margin 0;
+    vertical-align: middle;
+}
+
+.scrolll:hover {
+    width: 17%;
+    margin: auto;
+}
+
+@media (max-width:1028px) {
+    .headliner {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+    color: #fff;
+    padding: 5% 0 5% 0;
+}
+
+#footer {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: wavy;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: small;
+    padding: 1.5% 0 1% 0;
+
+}
+
+.sicon {
+    padding-left: 1%;
+    max-width: max-content;
+}
+
+.sicon:hover {
+    width: 17%;
+    margin: auto;
+}
